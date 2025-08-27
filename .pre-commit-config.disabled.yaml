@@ -1,0 +1,15 @@
+﻿repos:
+  - repo: local
+    hooks:
+      - id: ruff
+        name: ruff (venv)
+        entry: C:/Users/Office/python-starter/.venv/Scripts/python.exe
+        language: system
+        types: [python]
+        args: ["-m","ruff","check","--fix"]
+      - id: black
+        name: black (venv)
+        entry: C:/Users/Office/python-starter/.venv/Scripts/python.exe
+        language: system
+        types: [python]
+        args: ["-m","black"]

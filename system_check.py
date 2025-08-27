@@ -1,4 +1,6 @@
-﻿import sys, os, json, pathlib
+﻿import os
+import pathlib
+import sys
 
 data = {
     "python_executable": sys.executable,
